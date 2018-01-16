@@ -1,24 +1,26 @@
 # Sanger Portfolio Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A Ruby on Rails app, based on a tutorial, for a portfolio and blog.
 
-Things you may want to cover:
+### Features:
 
-* Ruby version
+- Blog
+- Portfolio
+- Drag-and-drop interface
+- Real time chat engine for comments
 
-* System dependencies
+### Code Example
 
-* Configuration
+This readme is written in Markdown of course.
 
-* Database creation
+```ruby
+def ruby_method
+  puts "I'm in yer methodz, futzin with yer code!"
+end
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+``` javascript
+function() JavascriptFunction {
+  alert("yo!");
+}
+```
