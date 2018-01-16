@@ -17,3 +17,6 @@
 /yarn-error.log
 
 .byebug_history
+
+# Don't show secrets
+/config/secrets.yml
