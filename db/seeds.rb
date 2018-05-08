@@ -59,4 +59,11 @@ end
 
 puts '9 portfolios created'
 
-#### NEXT (4/28) GENERATE SSH KEYS IF NECESSARY...USE ON GITHUB
+3.times do |tech|
+  Portfolio.last.technologies.create!(
+      name: "Tech #{tech}",
+      portfolio_id: Portfolio.last.id
+  )
+end
+
+puts '3 technologies created'
